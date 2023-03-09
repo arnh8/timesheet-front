@@ -1,0 +1,13 @@
+.calendar{
+    width: 550px;
+    border-style: solid;
+    border-color: red;
+    
+}
+
+
+#daysWrapper{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}

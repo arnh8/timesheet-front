@@ -1,0 +1,8 @@
+
+.day{
+    width:60px;
+    height: 80px;
+    border-style: solid;
+    border-color: red;
+    margin: 5px;
+}
