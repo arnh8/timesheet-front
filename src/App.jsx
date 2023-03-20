@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./styles/App.css";
 import Calendar from "./modules/Calendar";
 import Test from "./modules/test";
 import Login from "./modules/Login";
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Login loginHandler={loginHandler} />
       <Register registerHandler={registerHandler} />
-      <Calendar year="2023" month="3" />
+      <Calendar year="2023" month="2" />
     </div>
   );
 }
